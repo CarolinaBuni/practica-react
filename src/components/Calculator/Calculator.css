@@ -1,0 +1,27 @@
+.calculator {
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     justify-content: center;
+     width: 300px;
+}
+
+.calculator-input {
+     height: 30px;
+     width: 100%;
+}
+
+.calculator > div {
+     align-items: center;
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+}
+
+.calculator > div > button {
+     border: 2px solid black;
+     cursor: pointer;
+     padding: 10px 10px;
+}
+
